@@ -1,2 +1,2 @@
 #!/bin/bash
-DEL "*.js" /S /Q 
+find . -name '*.js' | xargs rm 
